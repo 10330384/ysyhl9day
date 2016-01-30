@@ -5,11 +5,11 @@ _checkversion.py file""" """ V201601282212AD     """
 import pyversioncheck
 
 _PACKAGE="versioncheck"
-_VERSION=" V201601300944AR "
+_VERSION=" V201601301517AR "
 _URL="http://www.cwi.nl/~jack/versioncheck/curversion.txt"
 
 try:
-    _myverbose=  V201601300944RE
+    _myverbose=  V201601301517RE
 except NameError:
     _myverbose=1
 
