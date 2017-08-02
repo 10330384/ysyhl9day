@@ -15,10 +15,14 @@
             "tls"
         ]
     },
-    "inboundDetour": [],
+    "inboundDetour": [
+        
+    ],
     "outbound": {
         "protocol": "freedom",
-        "settings": {},
+        "settings": {
+            
+        },
         "tag": "direct"
     },
     "outboundDetour": [
@@ -3883,8 +3887,12 @@
         "env": [
             "V2RaySocksPort=10808"
         ],
-        "render": [],
-        "escort": [],
+        "render": [
+            
+        ],
+        "escort": [
+            
+        ],
         "vpnservice": {
             "Target": "${datadir}tun2socks",
             "Args": [
